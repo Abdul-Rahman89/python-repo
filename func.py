@@ -43,3 +43,22 @@ def convertor(usd):
     pkr = usd * 270
     print(usd,"USD =", pkr, "PKR =")
 convertor(2)    
+
+
+
+# Recursive Fucntion means fucntion call itself, Base case is more important 
+
+def show(m):
+    if(m == 0):
+        return
+    print(m)
+    show(m-1)
+show(5)
+
+
+def fact1(g):
+    if(g == 0 or g ==1):
+        return 1
+    else:
+        return  g * fact1(g-1)
+print(fact1(4))        
