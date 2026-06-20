@@ -1,0 +1,1 @@
+# Same task ko bar bar krny se behtar h hum function bna ly ur usko call krty rhy. Block of code that perform specific task
