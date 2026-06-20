@@ -1,0 +1,3 @@
+Laerning python in deeply
+and understand basic concept like
+loops, functions, conditions.
