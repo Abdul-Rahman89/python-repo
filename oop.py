@@ -16,3 +16,6 @@ s2.welcome()
 print(s2.get_makrs())
 
 # Class have 2 properties one is the attribute and 2nd one is method --> means fuction that perform for complete the work. 
+
+
+  
