@@ -13,7 +13,7 @@ models.Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
 # Helper function to get a single todo by ID
-def get_todo_by_id(db: Session, todo_id: int):
+def get_todo_by_id(db: Session, todo_id: int): 
     return db.query(models.Todo).filter(models.Todo.id == todo_id).first()
 
 # Create a new todo
